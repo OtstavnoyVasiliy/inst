@@ -1,6 +1,6 @@
-package com.example.entity;
+package com.example.inst.entity;
 
-import com.example.entity.enums.ERole;
+import com.example.inst.entity.enums.ERole;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
 import org.springframework.security.core.GrantedAuthority;
