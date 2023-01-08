@@ -13,7 +13,8 @@ import java.lang.annotation.*;
 public @interface PasswordMatches {
     String message() default "Password do not match";
 
-    Class<?>[] groups() default {};
+    Class<?>[] groups() default{};
 
     Class<? extends Payload>[] payload() default {};
 }
+
